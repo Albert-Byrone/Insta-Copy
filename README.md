@@ -28,7 +28,7 @@ https://github.com/Albert-Byrone/Insta-Copy.git
 ```
 ##### Navigate into the folder and install requirements  
  ```bash 
-cd Album pip install -r requirements.txt 
+cd INsta-Copy pip install -r requirements.txt 
 ```
 ##### Install and activate Virtual  
  ```bash 
