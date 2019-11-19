@@ -25,3 +25,6 @@ class Profile(models.Model):
 
     def save_profile(self):
         self.user
+
+    def delete_profile(self):
+        self.delete()
