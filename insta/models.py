@@ -53,3 +53,7 @@ class Post(models.Model):
         return self.comments.all()
 
     def save_image(self):
+        self.save()
+
+    def delete_image(self):
+        self.delete()
