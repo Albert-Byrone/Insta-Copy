@@ -45,3 +45,6 @@ class Post(models.Model):
     class Meta:
         ordering = ["-pk"]
 
+    def get_absolute_url(self):
+        return f"/post/{self.id}"
+
