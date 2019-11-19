@@ -57,3 +57,7 @@ class Post(models.Model):
 
     def delete_image(self):
         self.delete()
+
+    def total_likes(self):
+        return self.likes.count()
+
