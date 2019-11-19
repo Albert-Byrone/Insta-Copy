@@ -90,7 +90,6 @@ def user_profile(request, username):
         'follow_status': follow_status,
         'people_following':people_following
     }
-    print(followers)
     return render(request, 'profile/user_profile.html', params)
 
 
