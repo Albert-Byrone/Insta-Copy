@@ -1,4 +1,4 @@
-# Album 
+# Insta-Copy 
 ## Author  
   
 >[Albert-Byrone](https://github.com/Albert-Byrone/Insta-Copy.git)  
